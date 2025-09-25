@@ -17,7 +17,7 @@ import re
 
 os.environ['LANGSMITH_TRACING'] = 'true'
 os.environ['LANGSMITH_ENDPOINT'] = "https://api.smith.langchain.com"
-os.environ['LANGSMITH_API_KEY'] = "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"
+os.environ['LANGSMITH_API_KEY'] = "lsv9b"
 os.environ['LANGSMITH_PROJECT'] = "final_v2_0513_graduation"
 
 
@@ -84,7 +84,7 @@ class QAAgent:
                 max_tokens=None,
                 timeout=None,
                 max_retries=2,
-                api_key="sk-vzueoszaobqmmtpcbxtycvombxzwbxrbmtzllrdnahoebsui",  # if you prefer to pass api key in directly instaed of using env vars
+                api_key="sk-vzueoebsui",  # if you prefer to pass api key in directly instaed of using env vars
                 base_url="https://api.siliconflow.cn/v1/",
             )
 
@@ -94,7 +94,7 @@ class QAAgent:
                 max_tokens=None,
                 timeout=None,
                 max_retries=3,
-                api_key="sk-991c57bdef8a4e8aa84302be95811230",  # if you prefer to pass api key in directly instaed of using env vars
+                api_key="sk11230",  # if you prefer to pass api key in directly instaed of using env vars
                 base_url="https://api.deepseek.com",
             )
 
@@ -104,7 +104,7 @@ class QAAgent:
                 max_tokens=None,
                 timeout=None,
                 max_retries=3,
-                api_key="sk-991c57bdef8a4e8aa84302be95811230",  # if you prefer to pass api key in directly instaed of using env vars
+                api_key="30",  # if you prefer to pass api key in directly instaed of using env vars
                 base_url="https://api.deepseek.com",
             )
 

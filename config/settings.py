@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # LangSmith配置
-LANGCHAIN_API_KEY = "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"
+LANGCHAIN_API_KEY = "lse657f704d0"
 LANGCHAIN_PROJECT = "MMRAG"
 LANGCHAIN_TRACING_V2 = "true"
 LANGCHAIN_ENDPOINT = "https://api.smith.langchain.com"

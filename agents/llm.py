@@ -6,7 +6,7 @@ from langsmith.wrappers import wrap_openai
 class myVLM:
     def __init__(self, model_name="Qwen/Qwen2.5-VL-32B-Instruct"):
         self.client = OpenAI(
-            api_key="sk-vzueoszaobqmmtpcbxtycvombxzwbxrbmtzllrdnahoebsui",
+            api_key="",
             base_url="https://api.siliconflow.cn/v1"
         )
         # self.model_name="Pro/Qwen/Qwen2.5-VL-7B-Instruct"
