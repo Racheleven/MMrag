@@ -1,0 +1,9 @@
+qdrant-client>=1.7.0
+fastembed>=0.2.2
+numpy>=1.24.0
+unstructured>=0.11.0
+pdf2image>=1.16.3
+layoutparser>=0.3.4
+pytesseract>=0.3.10
+python-magic>=0.4.27
+pdfminer.six>=20221105 
